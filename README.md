@@ -36,6 +36,7 @@ images is limited per day.
 |---|---|
 | `plugin.json` | the manifest (Agent Plugins 1.0.0), with the listing under `extensions.com.openai` |
 | `mcp.json` | one remote server, `https://devault.design/api/mcp` |
+| `.codex-plugin/plugin.json`, `.mcp.json` | the same manifest and server in Codex's own plugin layout, for installers that read that |
 | `skills/get-started` | introduces the plugin and gets a first result |
 | `skills/research-ui-patterns` | researches how real products design a screen, flow or pattern, and reports with the screens behind it |
 | `skills/apply-design-system` | finds a ready-made design system and delivers it in the format your project needs |

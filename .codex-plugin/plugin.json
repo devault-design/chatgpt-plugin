@@ -1,0 +1,50 @@
+{
+  "name": "devault",
+  "version": "1.0.1",
+  "description": "Search and study real UI design references, analyze design patterns, and fetch ready-made design systems from the Devault library.",
+  "author": {
+    "name": "HYDRANODE LTD",
+    "email": "founder@devault.design",
+    "url": "https://devault.design"
+  },
+  "homepage": "https://devault.design/mcp",
+  "repository": "https://github.com/devault-design/chatgpt-plugin",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "ui",
+    "ux",
+    "design-references",
+    "design-systems",
+    "research"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Devault",
+    "shortDescription": "UI research and design systems",
+    "longDescription": "Devault is a library of UI design references: screens from real websites and mobile apps, complete user flows, marketing emails, year-by-year redesigns and original interface concepts, each tagged by platform, industry, screen type and components.\n\nWith this plugin, ChatGPT and Codex can research that library while you work:\n- Search screens by description, and narrow by platform, industry, screen type or company.\n- Analyze a design pattern across the library: how common it is, where it appears and which components go with it.\n- Have the assistant study a screen at a readable size and describe it, or find screens that look like one you picked. Every screen comes with a link that opens it on devault.design.\n- Fetch a ready-made design system (palette, contrast grades, type scale, spacing) as DESIGN.md, Tailwind v4, CSS variables, shadcn/ui, design tokens, Figma variables, SwiftUI, Android XML or an image prompt.\n\nIt is for designers, developers and product teams who want a decision to rest on how shipped products look.\n\nGood to know: the plugin only reads, and cannot change anything in your Devault account. Screens are references for study and inspiration; the companies shown are not affiliated with Devault. A search returns one page of results, and the number of images is limited per day. You need a Devault account whose plan includes MCP access.",
+    "developerName": "HYDRANODE LTD",
+    "category": "Creativity",
+    "capabilities": [
+      "Search UI screens",
+      "Analyze design patterns",
+      "Find similar screens",
+      "Study screens in detail",
+      "Fetch design systems"
+    ],
+    "websiteURL": "https://devault.design",
+    "supportURL": "https://devault.design/support",
+    "privacyPolicyURL": "https://devault.design/privacy",
+    "termsOfServiceURL": "https://devault.design/terms",
+    "defaultPrompt": [
+      "Find onboarding screens from fintech apps",
+      "How do apps design paywalls? Show the numbers and a few examples",
+      "Get a dark dashboard design system as Tailwind tokens"
+    ],
+    "brandColor": "#5A50AF",
+    "brandColorDark": "#9B88DF",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  }
+}
